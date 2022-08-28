@@ -7,11 +7,57 @@
     <title>Encriptador Alura</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <div class="caja">
+            <img src="G:\Mi unidad\ESTUDIOS\Otros\Alura (Oracle)\1. Principiante en programación\Challenge\Sprint 01 - Encriptador\Imagenes\logo.png" alt="Logo de Alura" class="img-logo">
+            <p class="titulo">Challenge ONE Sprint 01:</p>
+            <p class="titulo2">Construye un encriptador de texto con Javascript. </p>
+        </div>
+    </header>
+
+    <main>
+        <ul class="elementos">
+            <li>
+                <form class="formE">
+                    <label for="texto-in">Ingrese el texto que quiera encriptar o desencriptar: </label>
+                    <div class="text">
+                        <textarea id="texto-in" placeholder="--->"  required></textarea>
+                    </div>
+                    
+                </form>
+            </li>
+            <li>
+                <form class="formB">
+                    <input type="submit" value="Encriptar" class="boton" id="boton1">
+                    <input type="submit" value="Desencriptar" class="boton" id="boton2">
+                    <input type="submit" value="Copiar" class="boton" id="boton3">
+                </form>
+            </li>
+            <li>
+                <form class="formD">
+                    <label for="texto-out">Resultado del texto encriptado o desencriptado: </label>
+                    <div class="text">
+                        <textarea id="texto-out" placeholder="--->"></textarea>
+                    </div>
+                    
+                </form>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy Luis Porras - 2022</p>
+        <img src="G:\Mi unidad\ESTUDIOS\Otros\Alura (Oracle)\1. Principiante en programación\Challenge\Sprint 01 - Encriptador\Imagenes\Muñeco.png" alt="Logo de Alura" class="img-nene">
+    </footer>
 </body>
 
-<footer>
-</footer>
 </html>
